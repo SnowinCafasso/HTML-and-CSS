@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Pearson Tech</h1>
+        </div>
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="wrapper">
+                <i class="fa-solid fa-house"></i>
+                <span>Dashboard</span>
+            </div>
+            <div class="wrapper">
+                <i class="fa-solid fa-chart-simple"></i>
+                <span>Bar Charts</span>
+            </div>
+            <div class="wrapper">
+                <i class="fa-solid fa-chart-pie"></i>
+                <span>Pie Charts</span>
+            </div>
+            <div class="wrapper">
+                <i class="fa-solid fa-box"></i>
+                <span>Components</span>
+            </div>
+            <div class="wrapper">
+                <i class="fa-solid fa-file"></i>
+                <span>Layout</span>
+            </div>
+            <div class="wrapper">
+                <i class="fa-solid fa-info"></i>
+                <span>About</span>
+            </div>
+        </div>
+        <!-- Content -->
+        <div class="content">
+            <div class="searchbar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="details">
+                <div class="item" style="background-color: #05b7fd;">
+                    <h2>Sign Ups</h2>
+                    <h1>114</h1>
+                    <div class="info">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <p>+25%from last month</p>
+                    </div>
+                </div>
+                <div class="item" style="background-color: rgb(68, 225, 6);">
+                    <h2>Revenue</h2>
+                    <h1>$25,570</h1>
+                    <div class="info">
+                        <i class="fa-solid fa-money-bill"></i>
+                        <p>+20.5%from last month</p>
+                    </div>
+                </div>
+                <div class="item" style="background-color: #ed2b52;">
+                    <h2>Open Tickets</h2>
+                    <div class="info" id="ticket-section">
+                        <i class="fa-solid fa-ticket"></i>
+                        <h3>5</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="notification">
+                <div class="top">
+                    <i class="fa-solid fa-bell"></i>
+                    <span>Notifications</span>
+                </div>
+                <div class="notif-content">
+                    <div class="message">
+                        <div class="message-content">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>New message</p>
+                        </div>
+                        <div class="time">
+                            <p>8 days ago</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="message-content">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>New ticket</p>
+                        </div>
+                        <div class="time">
+                            <p>11 days ago</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="message-content">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>New comment</p>
+                        </div>
+                        <div class="time">
+                            <p>17 days ago</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="message-content">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>New messge</p>
+                        </div>
+                        <div class="time">
+                            <p>27 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer" s>
+            <p>&copy; All rights reserved</p>
+        </div>
+    </div>
+</body>
+
+</html>
