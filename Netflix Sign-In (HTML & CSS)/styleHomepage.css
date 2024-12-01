@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.section-one {
+    background-image: url(background.png);
+    background-size: cover;
+    height: 700px;
+    min-width: 100%;
+    position: relative;
+}
+
+.section-one img {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+.section-one .header {
+    margin: 10px 130px 0px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: #E50914;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #c20811;
+}
+
+.section-one .btn {
+    padding: 11px 21px;
+    border-radius: 5px;
+}
+
+.section-one select,
+footer select {
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.section-one option,
+footer option {
+    color: black;
+}
+
+.section-one .options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.section-one .text {
+    text-align: center;
+    min-width: 1050px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-one .text * {
+    margin-top: 30px;
+}
+
+.section-one .text input {
+    padding: 23px 200px 23px 10px;
+    background-color: rgba(0, 0, 0, 0.563);
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: white;
+    font-size: 15px;
+}
+
+.section-one .text .btn {
+    padding: 19px 30px;
+    font-size: 24px;
+    font-weight: 700;
+    vertical-align: bottom;
+    margin-left: 6px;
+}
+
+/* Section 2 */
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 160px 0px 160px;
+    padding: 80px 0px 80px 0px;
+}
+
+.section h1,
+.section h3 {
+    max-width: 580px;
+    margin-top: 25px;
+}
+
+.section h3 {
+    line-height: 1.7;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.section h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.section-three h1 {
+    max-width: 670px;
+}
+
+.section-six input {
+    padding: 23px 200px 23px 10px;
+    background-color: rgba(0, 0, 0, 0.563);
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: white;
+    font-size: 15px;
+}
+
+.section-six .btn {
+    padding: 19px 30px;
+    font-size: 24px;
+    font-weight: 700;
+    vertical-align: bottom;
+    margin-left: 6px;
+    border-radius: 5px;
+}
+
+.section-six {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+footer {
+    margin: 100px 140px 100px 140px;
+}
+
+footer,
+footer a {
+    color: #aeaeae;
+}
+
+footer .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 20px;
+    max-width: 1200px;
+}
+
+footer p,
+footer .flex-container,
+footer select {
+    margin-top: 35px;
+}
+
+@media screen and (max-width:1250px) {
+    .section-one .header {
+        margin: 10px 25px;
+    }
+
+    .section {
+        margin: 0px 25px 0px 25px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    footer .grid-container {
+        grid-template-columns: auto auto;
+    }
+
+    .section {
+        flex-direction: column;
+        /* margin-left: 250px; */
+    }
+
+    .section-three,
+    .section-five {
+        flex-direction: column-reverse;
+    }
+
+    .section-one .text {
+        font-size: 70%;
+        min-width: auto;
+    }
+
+    .section-one .header {
+        margin: 10px 10px 0px 10px;
+    }
+}
