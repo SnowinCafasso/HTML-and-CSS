@@ -1,0 +1,71 @@
+
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+ul,h1{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin-left: 10px;
+}
+
+li:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.products_page{
+    border: 3px solid black;
+    margin-top: 15px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.product{
+    border: 3px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 7px;
+}
+
+.book{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.book:hover{
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 7px;
+}
+form{
+    display: inline-block;
+    text-align: left;
+}
+td{
+    padding: 5px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+}
